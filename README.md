@@ -17,6 +17,24 @@ paso, escrito para que lo siga alguien que empieza de cero.
 
 <!-- INDICE:FIN -->
 
+## Cómo probamos estos materiales
+
+Ninguna carpeta se publica sin pasar por una prueba real. El procedimiento es siempre el mismo y
+está dentro de cada carpeta para que lo repitas tú:
+
+1. **Se construye un entorno limpio** con `entorno/Dockerfile` (imagen base + dependencias con
+   versiones fijadas). Nada de «en mi máquina funcionaba».
+2. **Se ejecuta la demo dentro de un contenedor sin privilegios**, con la carpeta montada en
+   **solo lectura** y una copia de trabajo en `/tmp`: así el script no puede tocar el original.
+3. **Se comprueba el resultado**, no solo que el comando termine: si el material dice que genera
+   un fichero o imprime algo concreto, eso es lo que tiene que aparecer.
+4. El fichero `pruebas/pruebas.sh` de cada carpeta es exactamente esa prueba. Si a ti te funciona
+   y a nosotros nos funcionaba, estamos hablando del mismo entorno.
+
+Por eso cada `README.md` trae los requisitos de **hardware y software**, el **entorno de pruebas**
+con sus comandos y la explicación de **qué hace cada fichero**. Si algo no está explicado, no se
+publica: ese es el criterio de la casa.
+
 ## Cómo usar una carpeta
 
 1. Entra en la carpeta del vídeo que quieras reproducir (columna *Carpeta* del índice).
