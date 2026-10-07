@@ -88,7 +88,7 @@ el material las necesita, entran por variables de entorno.
 | `entorno/Dockerfile` | La máquina donde se prueba: imagen base y dependencias con versiones fijadas. |
 | `pruebas/pruebas.sh` | Construye ese entorno y ejecuta la demo en limpio. Es la prueba real previa a publicar. |
 | `.env.example` | Plantilla de las claves que necesita el material (se copia a `.env`, que nunca se sube). |
-| `paquete.json` | Ficha técnica del material para el índice del repositorio. |
+| `material.json` | La ficha del índice del repositorio: título, fecha, enlace al vídeo y si pide claves. |
 | `README.md` | Esto: los pasos, el entorno de pruebas y el resultado esperado. |
 
 ### Qué hace cada script, paso a paso
