@@ -21,8 +21,6 @@
 
 
 ## Entorno de pruebas
-## Entorno de pruebas
-
 Todo lo que sale en el vídeo se probó **en un contenedor limpio**, y aquí tienes ese mismo entorno
 para repetirlo tú. No hay nada que instalar en tu sistema: la máquina de pruebas se describe en un
 fichero y se construye con una orden.
