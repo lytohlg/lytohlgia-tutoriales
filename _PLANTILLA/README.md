@@ -59,10 +59,12 @@ montada como solo-lectura y la copia de trabajo se hace en `/tmp`. Si funciona a
 máquina: lo que falla en limpio es un fallo real, no un resto de tu entorno. El contenedor tiene
 red (algunos materiales descargan dependencias al arrancar); lo que **no** tiene son tus datos.
 
-**Detalles de nuestra ejecución, por si tu caso es distinto:** si en tu equipo hay más de un motor
-Docker configurado (por ejemplo un Docker remoto), añade `--context default` a las órdenes de
-arriba para forzar el local: es lo que hacemos nosotros, con el usuario `1000:1000` para no correr
-como root y con `HOME=/tmp`. Todo eso ya está en las órdenes de este README.
+**Detalles de nuestra ejecución, por si tu caso es distinto:** las órdenes de arriba son las mismas
+que usamos nosotros, tal cual. El `--context default` fuerza el motor Docker local — útil si tienes
+configurado además uno remoto; si en tu equipo solo hay uno, déjalo igual (funciona) o quítalo.
+Ejecutamos con el usuario `1000:1000` para no correr como root y con `HOME=/tmp` para que el
+contenedor no dependa de nada de fuera. El contenedor no lleva credenciales dentro: las claves, si
+el material las necesita, entran por variables de entorno.
 
 ## Pasos
 1. Copia esta carpeta a tu máquina y entra en ella:
