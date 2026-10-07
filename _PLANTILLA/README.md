@@ -32,6 +32,9 @@ fichero y se construye con una orden.
 - `.env.example` — plantilla de las claves que necesite el material. Se copia a `.env` (que **no**
   se sube nunca al repositorio).
 
+No usamos `docker-compose`: para un contenedor que ejecuta un comando no hace falta, y el Dockerfile
+es el punto de partida si algún día hiciera falta más de uno (basta con `docker compose up`).
+
 **Paso 1 — construir la máquina** (una sola vez; tarda un par de minutos la primera vez porque
 descarga la imagen base):
 ```bash
