@@ -13,7 +13,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 
 | Fecha | Vídeo | Carpeta | Credenciales |
 |---|---|---|---|
-| — | (todavía no hay ningún vídeo publicado) | — | — |
+| 2026-10-13 | Avisos de stock bajo con Python: inventario real en Docker | [`videos/stock-ssm`](videos/stock-ssm) | no |
 
 <!-- INDICE:FIN -->
 
