@@ -1,0 +1,33 @@
+issuer: TRANSPORTES VEGA, S.A.
+keywords:
+  - TRANSPORTES VEGA
+fields:
+  date:
+    parser: regex
+    regex: 'Fecha:\s*(\d{2}/\d{2}/\d{4})'
+    type: date
+  invoice_number:
+    parser: regex
+    regex: 'Factura n\.o\s*([A-Z0-9/\-]+)'
+  partner_name:
+    parser: regex
+    regex: 'TRANSPORTES VEGA, S\.A\.'
+  amount:
+    parser: regex
+    regex: 'TOTAL FACTURA\s*\.*\s*([\d.,]+)\s*EUR'
+    type: float
+  base:
+    parser: regex
+    regex: 'SUBTOTAL\s*\.*\s*([\d.,]+)\s*EUR'
+    type: float
+  iva:
+    parser: regex
+    regex: 'I\.V\.A\.\s*21%\s*\.*\s*([\d.,]+)\s*EUR'
+    type: float
+  currency: EUR
+options:
+  currency: EUR
+  decimal_separator: ','
+  date_formats:
+    - '%d/%m/%Y'
+  remove_whitespace: false

@@ -1,0 +1,33 @@
+issuer: Suministros Arenal S.L.
+keywords:
+  - SUMINISTROS ARENAL
+fields:
+  date:
+    parser: regex
+    regex: 'Fecha de emision:\s*(\d{2}/\d{2}/\d{4})'
+    type: date
+  invoice_number:
+    parser: regex
+    regex: 'N\. factura:\s*([A-Z0-9\-/]+)'
+  partner_name:
+    parser: regex
+    regex: 'SUMINISTROS ARENAL S\.L\.'
+  amount:
+    parser: regex
+    regex: 'Total a pagar:\s*([\d.,]+)\s*EUR'
+    type: float
+  base:
+    parser: regex
+    regex: 'Base imponible:\s*([\d.,]+)\s*EUR'
+    type: float
+  iva:
+    parser: regex
+    regex: 'IVA 21%:\s*([\d.,]+)\s*EUR'
+    type: float
+  currency: EUR
+options:
+  currency: EUR
+  decimal_separator: ','
+  date_formats:
+    - '%d/%m/%Y'
+  remove_whitespace: false
