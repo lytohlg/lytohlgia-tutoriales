@@ -1,0 +1,26 @@
+# Mi registro de fuentes: los 4 repos publicos que trae el registro de demo del repo
+# (git_clone = determinista; el registro completo de produccion -62 fuentes- NO es publico)
+sources:
+  - name: anthropics/skills
+    repo: anthropics/skills
+    type: git_clone
+    pull_cadence: weekly
+    source_label: anthropics/skills
+
+  - name: vercel-labs/skills
+    repo: vercel-labs/skills
+    type: git_clone
+    pull_cadence: weekly
+    source_label: vercel-labs/skills
+
+  - name: addyosmani/agent-skills
+    repo: addyosmani/agent-skills
+    type: git_clone
+    pull_cadence: monthly
+    source_label: addyosmani/agent-skills
+
+  - name: K-Dense-AI/scientific-agent-skills
+    repo: K-Dense-AI/scientific-agent-skills
+    type: git_clone
+    pull_cadence: monthly
+    source_label: K-Dense-AI/scientific-agent-skills

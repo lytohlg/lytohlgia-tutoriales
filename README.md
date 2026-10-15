@@ -13,6 +13,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 
 | Fecha | Vídeo | Carpeta | Credenciales |
 |---|---|---|---|
+| 2026-10-11 | [SkillCorpus: 222 skills de agente filtradas y buscables con Python](https://www.youtube.com/watch?v=0FCGz3RKs1A) | [`videos/skillcorpus`](videos/skillcorpus) | no |
 | 2026-10-13 | Avisos de stock bajo con Python: inventario real en Docker | [`videos/stock-ssm`](videos/stock-ssm) | no |
 | 2026-10-14 | [invoice2data: extrae datos de facturas PDF a CSV con Python (instalado y probado)](https://www.youtube.com/watch?v=F-qetN02DJ0) | [`videos/invoice2data-facturas`](videos/invoice2data-facturas) | no |
 | 2026-10-15 | restic: restaurar y comparar para saber si tu copia sirve | [`videos/restic-verificar-copia`](videos/restic-verificar-copia) | no |

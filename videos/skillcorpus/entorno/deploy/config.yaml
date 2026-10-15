@@ -1,0 +1,89 @@
+# skillcorpus configuration
+
+# Source weights (used for quality_score)
+source_weights:
+  anthropics: 1.00      # official, highest
+  karanb192:  0.90      # verified badge
+  clawhub:    0.85      # VirusTotal + manual review
+  voltagent:  0.80      # curated list
+  antigravity: 0.75     # community bundled, mixed quality
+  skillsbench: 0.70     # academic corpus, not necessarily practical
+  community:  0.60      # other community sources
+  custom:     0.50      # user-uploaded
+
+# Quality filter thresholds (structural rules)
+thresholds:
+  body_min_chars: 300      # reject if body is too short
+  body_max_chars: 50000    # reject if body is abnormally large
+  description_min_chars: 20
+  description_max_chars: 1024   # agentskills.io spec upper limit
+  # LLM judge minimum score
+  llm_judge_min: 6.0
+
+# Quality scoring policy
+quality:
+  # Judge quality inline during ingest with the LLM (utility / robustness / safety);
+  # falls back to rule-based scoring when no LLM endpoint is reachable. Turn off to
+  # keep ingest fast on very large batches and backfill scores afterwards with
+  # `python -m skillcorpus.curate.quality_pass`.
+  llm_quality_at_ingest: true
+
+# Deduplication thresholds
+dedup:
+  # Cross-source near-duplicate detection: embedding cosine >= near_dup_min_cosine enters LLM dedup judgment
+  # (the auto-judgment threshold is set higher to avoid false positives).
+  near_dup_min_cosine: 0.90        # lower bound for entering LLM secondary confirmation
+  near_dup_auto_cosine: 0.995      # above this, mark as a duplicate directly, skipping the LLM
+  near_dup_top_k: 5                # max neighbors checked per new skill
+  # Run near-duplicate detection at ingest. Needs an embedding endpoint; degrades to
+  # content_hash + name_hash dedup when none is reachable. Turn off to keep ingest
+  # fast on very large batches and run a whole-library scan afterwards with
+  # `python -m skillcorpus.curate.dedup_pass`.
+  enable_near_dup: true
+  # Policy when a name_hash conflicts: keep_higher_quality | keep_newer | keep_existing
+  name_conflict_policy: "keep_higher_quality"
+
+# Note: this library only handles ingest/build; runtime retrieval is configured on the consumer side and is not included here.
+
+# Embedding — used only for near-duplicate detection at ingest. Point base_url at
+# any OpenAI-compatible server serving the embedding model; the producer hosts
+# none. When the endpoint is unreachable, dedup degrades to content_hash + name_hash.
+embedding:
+  provider: "openai_compatible"          # or "skillrouter_remote" (see below)
+  model: "Qwen3-Embedding-0.6B"          # served model name / released fine-tuned checkpoint
+  dim: 1024
+  base_url: "http://127.0.0.1:8100/v1" # your OpenAI-compatible embedding endpoint
+  api_key: "dummy"                        # set if your server requires a bearer token
+  batch_size: 32
+  timeout: 5
+# Optional custom serving shim (non-OpenAI protocol): POST /embed {texts:[...]}
+# -> {embeddings:[[...]]}. base_url is the host root incl. any model path prefix.
+# embedding:
+#   provider: "skillrouter_remote"
+#   base_url: "http://<host>/<model-prefix>"
+
+# LLM — classification / tags / quality judge. Uses the **first** endpoint only
+# (listing more does not load-balance; change endpoints[0] to switch). Point it at
+# any OpenAI-compatible chat endpoint; when unreachable the pipeline degrades to
+# rule-based classification / quality.
+llm:
+  provider: "openai_compatible"
+  endpoints:
+    - { base_url: "http://127.0.0.1:8211/v1", model: "qwen3", api_key: "dummy" }
+
+  # Fallback fields when endpoints is empty
+  model: "qwen3"
+  base_url: "http://127.0.0.1:8211/v1"
+  api_key: "dummy"
+
+  temperature: 0.1
+  max_tokens: 512
+  timeout: 5
+  # Classification strategy: llm_primary | rule_primary | embedding_primary
+  classify_strategy: "llm_primary"
+  tag_strategy: "llm"
+  # Max concurrent LLM requests
+  concurrency: 8
+
+# Classification — LLM classifier. All logic lives in the classify.py prompt
+# (not configured here): 16 classes + OTHER fallback. See docs/16_classification.md.
