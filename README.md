@@ -18,6 +18,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-14 | [invoice2data: extrae datos de facturas PDF a CSV con Python (instalado y probado)](https://www.youtube.com/watch?v=F-qetN02DJ0) | [`videos/invoice2data-facturas`](videos/invoice2data-facturas) | no |
 | 2026-10-15 | restic: restaurar y comparar para saber si tu copia sirve | [`videos/restic-verificar-copia`](videos/restic-verificar-copia) | no |
 | 2026-10-16 | imap_tools: convierte correos en tareas con Python | [`videos/correo-a-tareas`](videos/correo-a-tareas) | no |
+| 2026-10-17 | SQL Explorer: que el informe de excepciones te llegue solo | [`videos/informes-excepciones-por-correo`](videos/informes-excepciones-por-correo) | no |
 
 <!-- INDICE:FIN -->
 
