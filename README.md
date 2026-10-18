@@ -19,6 +19,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-15 | restic: restaurar y comparar para saber si tu copia sirve | [`videos/restic-verificar-copia`](videos/restic-verificar-copia) | no |
 | 2026-10-16 | imap_tools: convierte correos en tareas con Python | [`videos/correo-a-tareas`](videos/correo-a-tareas) | no |
 | 2026-10-17 | SQL Explorer: que el informe de excepciones te llegue solo | [`videos/informes-excepciones-por-correo`](videos/informes-excepciones-por-correo) | no |
+| 2026-10-18 | PaddleOCR: busca dentro de tus PDF escaneados con Python | [`videos/paddleocr-documentos-escaneados`](videos/paddleocr-documentos-escaneados) | no |
 
 <!-- INDICE:FIN -->
 

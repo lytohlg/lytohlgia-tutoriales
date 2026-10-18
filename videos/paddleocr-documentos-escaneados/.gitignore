@@ -1,0 +1,8 @@
+# Artefactos que genera la propia demo al ejecutarse: no se versionan.
+documentos/
+documentos_nuevos/
+ground_truth.json
+documentos.db
+__pycache__/
+*.pyc
+.env
