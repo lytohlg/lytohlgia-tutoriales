@@ -1,0 +1,7 @@
+referencia,pieza,cantidad,minimo,actualizado
+RES-10K,Resistencia 10k 1/4W,620,200,2026-09-02
+COND-470,Condensador electrolitico 470uF 16V,38,50,2026-09-02
+ESP32-WROOM,Modulo ESP32 WROOM-32,11,10,2026-08-19
+LM2596,Convertidor DC-DC LM2596,22,15,2026-09-02
+JST-XH4,Conector JST-XH de 4 pines,85,100,2026-08-19
+USB-C-1M,Cable USB-C de 1 metro,3,5,2026-09-02

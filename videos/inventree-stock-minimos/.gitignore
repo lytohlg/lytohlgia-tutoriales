@@ -1,0 +1,15 @@
+# Lo que genera la propia demo al ejecutarse: no se versiona.
+.env
+.token
+database.sqlite3
+database.sqlite3-wal
+database.sqlite3-shm
+datos_inventree/
+_snap/
+salida/
+config.yaml
+plugins.txt
+oidc.pem
+media/
+static/
+__pycache__/
