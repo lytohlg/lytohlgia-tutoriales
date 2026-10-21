@@ -22,6 +22,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-18 | PaddleOCR: busca dentro de tus PDF escaneados con Python | [`videos/paddleocr-documentos-escaneados`](videos/paddleocr-documentos-escaneados) | no |
 | 2026-10-19 | InvenTree: controla el stock de tus componentes con Python | [`videos/inventree-stock-minimos`](videos/inventree-stock-minimos) | no |
 | 2026-10-20 | OCRmyPDF: convierte un PDF escaneado en texto que se puede buscar | [`videos/ocr-escaneos-buscables`](videos/ocr-escaneos-buscables) | no |
+| 2026-10-21 | PyMuPDF: borra el texto privado de un PDF de verdad | [`videos/pymupdf-borrar-datos-pdf`](videos/pymupdf-borrar-datos-pdf) | no |
 
 <!-- INDICE:FIN -->
 
