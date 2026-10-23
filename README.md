@@ -24,6 +24,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-20 | OCRmyPDF: convierte un PDF escaneado en texto que se puede buscar | [`videos/ocr-escaneos-buscables`](videos/ocr-escaneos-buscables) | no |
 | 2026-10-21 | PyMuPDF: borra el texto privado de un PDF de verdad | [`videos/pymupdf-borrar-datos-pdf`](videos/pymupdf-borrar-datos-pdf) | no |
 | 2026-10-22 | pypdf: detecta PDFs faltantes antes de unir y cifrar | [`videos/pypdf-expediente-completo`](videos/pypdf-expediente-completo) | no |
+| 2026-10-23 | python-docx: rellena contratos de Word sin dejar marcadores | [`videos/docx-contratos-por-cliente`](videos/docx-contratos-por-cliente) | no |
 
 <!-- INDICE:FIN -->
 

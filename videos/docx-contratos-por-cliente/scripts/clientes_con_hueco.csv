@@ -1,0 +1,14 @@
+cliente,cif,importe,concepto,fecha
+Clínica Dental Sonrisa,B12345678,"1.250,00",asesoría fiscal mensual,02/11/2026
+Talleres Robles,B23456789,"980,00",asesoría laboral mensual,02/11/2026
+Panadería La Espiga,B34567890,"640,00",asesoría fiscal trimestral,03/11/2026
+Farmacia Central,B45678901,"1.480,00",asesoría fiscal y laboral,03/11/2026
+Gimnasio Pulso,B56789012,"890,00",asesoría laboral mensual,04/11/2026
+Floristería Azahar,B67890123,"420,00",asesoría fiscal trimestral,04/11/2026
+Carpintería Vidal,B78901234,"760,00",asesoría fiscal mensual,05/11/2026
+Óptica Mira,B89012345,"540,00",asesoría fiscal mensual,05/11/2026
+Academia Norte,B90123456,"1.100,00",asesoría fiscal y laboral,06/11/2026
+Restaurante El Puerto,B01234567,"1.320,00",asesoría laboral mensual,06/11/2026
+Autoescuela Ruta,B11223344,"700,00",asesoría fiscal mensual,09/11/2026
+Ferretería Durán,B22334455,"860,00",asesoría fiscal mensual,09/11/2026
+Clínica Veterinaria Sur,,"1.150,00",asesoría fiscal mensual,10/11/2026
