@@ -25,6 +25,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-21 | PyMuPDF: borra el texto privado de un PDF de verdad | [`videos/pymupdf-borrar-datos-pdf`](videos/pymupdf-borrar-datos-pdf) | no |
 | 2026-10-22 | pypdf: detecta PDFs faltantes antes de unir y cifrar | [`videos/pypdf-expediente-completo`](videos/pypdf-expediente-completo) | no |
 | 2026-10-23 | python-docx: rellena contratos de Word sin dejar marcadores | [`videos/docx-contratos-por-cliente`](videos/docx-contratos-por-cliente) | no |
+| 2026-10-24 | pdfplumber: extrae las tablas de un PDF a CSV sin copiar | [`videos/pdfplumber-tablas-a-csv`](videos/pdfplumber-tablas-a-csv) | no |
 
 <!-- INDICE:FIN -->
 
