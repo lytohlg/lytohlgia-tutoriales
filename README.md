@@ -28,6 +28,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-24 | pdfplumber: extrae las tablas de un PDF a CSV sin copiar | [`videos/pdfplumber-tablas-a-csv`](videos/pdfplumber-tablas-a-csv) | no |
 | 2026-10-25 | httpx: descargas que no te mienten | [`videos/httpx-descargas-que-no-mienten`](videos/httpx-descargas-que-no-mienten) | no |
 | 2026-10-26 | [MLflow: nunca pierdas el modelo que funcionó](https://www.youtube.com/watch?v=sHIx46I1c6U) | [`videos/mlflow-experimentos-que-no-se-pierden`](videos/mlflow-experimentos-que-no-se-pierden) | no |
+| 2026-10-27 | [APScheduler: tareas en Python que no se pisan y sobreviven al reinicio](https://www.youtube.com/watch?v=MJMb5aM5IsM) | [`videos/apscheduler-tareas-que-no-se-pisan`](videos/apscheduler-tareas-que-no-se-pisan) | no |
 
 <!-- INDICE:FIN -->
 
