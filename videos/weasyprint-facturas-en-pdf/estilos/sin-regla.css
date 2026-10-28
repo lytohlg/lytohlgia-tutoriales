@@ -1,0 +1,6 @@
+/* La MISMA hoja de estilos, con una sola diferencia: la cabecera de la tabla deja de
+   repetirse. `table-row-group` hace que el thead se trate como un grupo de filas más
+   y no como cabecera de la tabla: aparece en la página 1 y en las demás ya no. */
+@import url("factura.css");
+
+table.lineas thead { display: table-row-group; }

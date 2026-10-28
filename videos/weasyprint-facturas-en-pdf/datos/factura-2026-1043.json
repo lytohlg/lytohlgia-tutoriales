@@ -1,0 +1,29 @@
+{
+  "cliente": "Otro Cliente, S.L.",
+  "nif": "B-11111111",
+  "direccion": "Avenida Inventada 45 · 41000 Sevilla",
+  "numero": "2026-1043",
+  "fecha": "24/10/2026",
+  "vencimiento": "23/11/2026",
+  "iva": 0.21,
+  "lineas": [
+    {
+      "ref": "L-001",
+      "concepto": "Filtro de aceite original, referencia del fabricante",
+      "cantidad": 1,
+      "precio": 12.4
+    },
+    {
+      "ref": "L-002",
+      "concepto": "Aceite de motor 5W30 sintético, garrafa de cuatro litros",
+      "cantidad": 1,
+      "precio": 38.75
+    },
+    {
+      "ref": "L-003",
+      "concepto": "Revisión del sistema de frenos trasero, desmontaje y ajuste",
+      "cantidad": 1,
+      "precio": 61.2
+    }
+  ]
+}

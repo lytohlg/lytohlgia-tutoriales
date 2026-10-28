@@ -1,0 +1,263 @@
+{
+  "cliente": "Cliente de Ejemplo, S.L.",
+  "nif": "B-00000000",
+  "direccion": "Calle Falsa 123 · 28000 Madrid",
+  "numero": "2026-1042",
+  "fecha": "24/10/2026",
+  "vencimiento": "23/11/2026",
+  "iva": 0.21,
+  "lineas": [
+    {
+      "ref": "L-001",
+      "concepto": "Sustitución del rodamiento delantero derecho, incluye mano de obra y prueba en banco",
+      "cantidad": 1,
+      "precio": 48.9
+    },
+    {
+      "ref": "L-002",
+      "concepto": "Mano de obra de taller, desmontaje y montaje del conjunto delantero",
+      "cantidad": 2,
+      "precio": 32.5
+    },
+    {
+      "ref": "L-003",
+      "concepto": "Filtro de aceite original, referencia del fabricante",
+      "cantidad": 1,
+      "precio": 12.4
+    },
+    {
+      "ref": "L-004",
+      "concepto": "Aceite de motor 5W30 sintético, garrafa de cuatro litros",
+      "cantidad": 1,
+      "precio": 38.75
+    },
+    {
+      "ref": "L-005",
+      "concepto": "Revisión del sistema de frenos trasero, desmontaje y ajuste",
+      "cantidad": 1,
+      "precio": 61.2
+    },
+    {
+      "ref": "L-006",
+      "concepto": "Juego de pastillas de freno traseras, eje completo",
+      "cantidad": 1,
+      "precio": 44.1
+    },
+    {
+      "ref": "L-007",
+      "concepto": "Diagnosis electrónica con lectura de centralita y borrado de fallos",
+      "cantidad": 1,
+      "precio": 27.35
+    },
+    {
+      "ref": "L-008",
+      "concepto": "Correa de distribución, sustitución completa con tensado",
+      "cantidad": 1,
+      "precio": 96.8
+    },
+    {
+      "ref": "L-009",
+      "concepto": "Tensor y rodillo guía de la correa de distribución",
+      "cantidad": 1,
+      "precio": 54.6
+    },
+    {
+      "ref": "L-010",
+      "concepto": "Bomba de agua, sustitución y purgado del circuito",
+      "cantidad": 1,
+      "precio": 71.45
+    },
+    {
+      "ref": "L-011",
+      "concepto": "Líquido refrigerante orgánico, garrafa de cinco litros",
+      "cantidad": 2,
+      "precio": 9.8
+    },
+    {
+      "ref": "L-012",
+      "concepto": "Mano de obra de taller, ajuste de la distribución y pruebas",
+      "cantidad": 3,
+      "precio": 32.5
+    },
+    {
+      "ref": "L-013",
+      "concepto": "Batería de 70 amperios hora, instalación y registro en centralita",
+      "cantidad": 1,
+      "precio": 118.9
+    },
+    {
+      "ref": "L-014",
+      "concepto": "Alternador reparado en taller externo, montaje incluido",
+      "cantidad": 1,
+      "precio": 143.2
+    },
+    {
+      "ref": "L-015",
+      "concepto": "Juego de cuatro bujías de encendido, par de apriete verificado",
+      "cantidad": 1,
+      "precio": 36.55
+    },
+    {
+      "ref": "L-016",
+      "concepto": "Filtro de habitáculo de carbón activo",
+      "cantidad": 1,
+      "precio": 18.3
+    },
+    {
+      "ref": "L-017",
+      "concepto": "Par de limpiaparabrisas delanteros, medida original",
+      "cantidad": 1,
+      "precio": 22.95
+    },
+    {
+      "ref": "L-018",
+      "concepto": "Alineación de dirección en banco de geometría",
+      "cantidad": 1,
+      "precio": 41.0
+    },
+    {
+      "ref": "L-019",
+      "concepto": "Equilibrado de las cuatro ruedas con contrapesos",
+      "cantidad": 1,
+      "precio": 25.4
+    },
+    {
+      "ref": "L-020",
+      "concepto": "Neumático 205/55 R16, montaje y válvula incluidos",
+      "cantidad": 2,
+      "precio": 78.6
+    },
+    {
+      "ref": "L-021",
+      "concepto": "Mano de obra de taller, comprobación final del vehículo",
+      "cantidad": 1,
+      "precio": 32.5
+    },
+    {
+      "ref": "L-022",
+      "concepto": "Líquido de frenos DOT4, purgado del circuito completo",
+      "cantidad": 1,
+      "precio": 14.25
+    },
+    {
+      "ref": "L-023",
+      "concepto": "Discos de freno delanteros ventilados, eje completo",
+      "cantidad": 2,
+      "precio": 64.3
+    },
+    {
+      "ref": "L-024",
+      "concepto": "Escobilla trasera, medida original del fabricante",
+      "cantidad": 1,
+      "precio": 11.7
+    },
+    {
+      "ref": "L-025",
+      "concepto": "Revisión previa a la inspección técnica, puntos de seguridad",
+      "cantidad": 1,
+      "precio": 29.9
+    },
+    {
+      "ref": "L-026",
+      "concepto": "Gestión de residuos del taller, retirada autorizada",
+      "cantidad": 1,
+      "precio": 7.15
+    },
+    {
+      "ref": "L-027",
+      "concepto": "Par de amortiguadores traseros, sustitución y alineado",
+      "cantidad": 1,
+      "precio": 103.75
+    },
+    {
+      "ref": "L-028",
+      "concepto": "Filtro de aire del motor, elemento de papel",
+      "cantidad": 1,
+      "precio": 58.2
+    },
+    {
+      "ref": "L-029",
+      "concepto": "Líquido limpiaparabrisas concentrado",
+      "cantidad": 1,
+      "precio": 16.8
+    },
+    {
+      "ref": "L-030",
+      "concepto": "Radiador de refrigeración, desmontaje y montaje",
+      "cantidad": 1,
+      "precio": 39.45
+    },
+    {
+      "ref": "L-031",
+      "concepto": "Termostato del circuito de refrigeración",
+      "cantidad": 1,
+      "precio": 84.1
+    },
+    {
+      "ref": "L-032",
+      "concepto": "Mano de obra de taller, revisión del circuito de refrigeración",
+      "cantidad": 2,
+      "precio": 21.3
+    },
+    {
+      "ref": "L-033",
+      "concepto": "Kit de embrague completo, disco, maza y cojinete",
+      "cantidad": 1,
+      "precio": 47.55
+    },
+    {
+      "ref": "L-034",
+      "concepto": "Cable de mando del embrague, sustitución y reglaje",
+      "cantidad": 1,
+      "precio": 68.9
+    },
+    {
+      "ref": "L-035",
+      "concepto": "Sensor de presión del colector de admisión",
+      "cantidad": 1,
+      "precio": 33.15
+    },
+    {
+      "ref": "L-036",
+      "concepto": "Manguito de admisión, abrazaderas incluidas",
+      "cantidad": 1,
+      "precio": 91.25
+    },
+    {
+      "ref": "L-037",
+      "concepto": "Bomba de combustible, sustitución y prueba de presión",
+      "cantidad": 1,
+      "precio": 26.7
+    },
+    {
+      "ref": "L-038",
+      "concepto": "Junta de culata, sustitución con planeado de superficie",
+      "cantidad": 1,
+      "precio": 55.8
+    },
+    {
+      "ref": "L-039",
+      "concepto": "Abrazaderas y tornillería de sujeción, material consumible",
+      "cantidad": 1,
+      "precio": 13.4
+    },
+    {
+      "ref": "L-040",
+      "concepto": "Mano de obra de taller, prueba en carretera y entrega",
+      "cantidad": 1,
+      "precio": 74.05
+    },
+    {
+      "ref": "L-041",
+      "concepto": "Revisión de preentrega, limpieza y comprobación de niveles",
+      "cantidad": 1,
+      "precio": 19.95
+    },
+    {
+      "ref": "L-042",
+      "concepto": "Mano de obra de taller, montaje de la bomba de combustible",
+      "cantidad": 3,
+      "precio": 42.6
+    }
+  ]
+}

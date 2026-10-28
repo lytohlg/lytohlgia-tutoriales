@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Factura {{numero}}</title>
+</head>
+<body>
+
+  <!-- La marca de la cabecera de página: el CSS la lee con string-set y la repite
+       sola en todas las páginas. Aquí no hay ninguna cabecera escrita a mano. -->
+  <h1 class="cliente">{{cliente}}</h1>
+  <p class="subcabecera">{{direccion}} · NIF {{nif}}</p>
+
+  <table class="datos">
+    <tr>
+      <th>Factura</th><td class="numero"><span class="num-factura">F-{{numero}}</span></td>
+      <th>Fecha</th><td>{{fecha}}</td>
+    </tr>
+    <tr>
+      <th>Líneas</th><td>{{n_lineas}}</td>
+      <th>Vencimiento</th><td>{{vencimiento}}</td>
+    </tr>
+  </table>
+
+  <table class="lineas">
+    <thead>
+      <tr>
+        <th class="ref">Ref.</th>
+        <th>Descripción</th>
+        <th class="num">Cant.</th>
+        <th class="num">Precio</th>
+        <th class="num">Importe</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{lineas}}
+    </tbody>
+  </table>
+
+  <table class="totales">
+    <tr><th>Base imponible</th><td class="num">{{base}}</td></tr>
+    <tr><th>IVA {{iva_pct}} %</th><td class="num">{{iva}}</td></tr>
+    <tr class="total"><th>Total</th><td class="num">{{total}} €</td></tr>
+  </table>
+
+  <p class="nota">
+    Documento generado con WeasyPrint a partir de esta plantilla HTML y una hoja de estilos.
+    Cambiar el diseño es cambiar el CSS; cambiar los datos es cambiar el JSON.
+  </p>
+
+</body>
+</html>

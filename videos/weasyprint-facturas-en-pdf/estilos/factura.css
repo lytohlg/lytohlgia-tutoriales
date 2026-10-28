@@ -1,0 +1,68 @@
+/* Aspecto y paginación de la factura.
+   Todo lo que hay aquí lo entiende cualquier navegador; las @page no. */
+
+@page {
+  size: A4;
+  margin: 26mm 16mm 22mm 16mm;
+
+  /* Cabecera y pie que se repiten en TODAS las páginas.
+     string(cliente) lee el texto del h1 marcado más abajo con string-set. */
+  @top-left  { content: string(cliente); font-size: 8pt; color: #555; }
+  @top-right { content: "Factura " string(ancla-numero); font-size: 8pt; color: #555; }
+
+  @bottom-left  { content: "Material didáctico · datos de ejemplo"; font-size: 7.5pt; color: #888; }
+  @bottom-right { content: "Página " counter(page) " de " counter(pages); font-size: 8pt; color: #333; }
+}
+
+/* De dónde salen los textos de la cabecera: de elementos del propio documento. */
+h1.cliente       { string-set: cliente content(); }
+.num-factura     { string-set: ancla-numero content(); }
+
+body {
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 10pt;
+  color: #1a1a1a;
+  line-height: 1.35;
+}
+
+h1.cliente {
+  font-size: 15pt;
+  margin: 0 0 2mm 0;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 2mm;
+}
+
+.subcabecera { margin: 0 0 6mm 0; font-size: 9pt; color: #555; }
+
+table { width: 100%; border-collapse: collapse; }
+
+table.datos { margin-bottom: 6mm; font-size: 9pt; }
+table.datos th { text-align: left; color: #555; font-weight: normal; width: 22mm; padding: 1mm 0; }
+table.datos td { padding: 1mm 0; }
+
+/* thead repetido: la cabecera de la tabla sale en cada página. */
+table.lineas { font-size: 9pt; table-layout: fixed; width: 178mm; }
+table.lineas thead { display: table-header-group; }
+table.lineas th, table.lineas td { overflow-wrap: break-word; }
+table.lineas th:nth-child(1) { width: 16mm; }
+table.lineas th:nth-child(2) { width: 76mm; }
+table.lineas th:nth-child(3) { width: 14mm; }
+table.lineas th:nth-child(4) { width: 22mm; }
+table.lineas th:nth-child(5) { width: 24mm; }
+table.lineas th { text-align: left; border-bottom: 1px solid #1a1a1a; padding: 2mm 1.5mm; }
+table.lineas td { padding: 1.6mm 1.5mm; border-bottom: 0.4pt solid #cccccc; }
+table.lineas .ref { width: 16mm; color: #666; }
+.num { text-align: right; }
+
+/* LA LÍNEA: una fila no se parte entre dos páginas. Sin esto, WeasyPrint corta la
+   fila por donde toque y la ref. se queda en una página y el importe en la siguiente. */
+tr { break-inside: avoid; }
+
+table.totales { margin-top: 6mm; width: 70mm; margin-left: auto; font-size: 10pt; }
+table.totales th { text-align: right; font-weight: normal; color: #555; padding: 1mm 3mm; }
+table.totales td { padding: 1mm 0; }
+table.totales tr.total th, table.totales tr.total td {
+  font-weight: bold; border-top: 1px solid #1a1a1a; color: #1a1a1a;
+}
+
+.nota { margin-top: 10mm; font-size: 8pt; color: #666; }

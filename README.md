@@ -29,6 +29,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-25 | httpx: descargas que no te mienten | [`videos/httpx-descargas-que-no-mienten`](videos/httpx-descargas-que-no-mienten) | no |
 | 2026-10-26 | [MLflow: nunca pierdas el modelo que funcionó](https://www.youtube.com/watch?v=sHIx46I1c6U) | [`videos/mlflow-experimentos-que-no-se-pierden`](videos/mlflow-experimentos-que-no-se-pierden) | no |
 | 2026-10-27 | [APScheduler: tareas en Python que no se pisan y sobreviven al reinicio](https://www.youtube.com/watch?v=MJMb5aM5IsM) | [`videos/apscheduler-tareas-que-no-se-pisan`](videos/apscheduler-tareas-que-no-se-pisan) | no |
+| 2026-10-28 | [WeasyPrint: facturas en PDF desde HTML y CSS, sin maquetar a mano](https://www.youtube.com/watch?v=nWU3KRvf-gA) | [`videos/weasyprint-facturas-en-pdf`](videos/weasyprint-facturas-en-pdf) | no |
 
 <!-- INDICE:FIN -->
 
