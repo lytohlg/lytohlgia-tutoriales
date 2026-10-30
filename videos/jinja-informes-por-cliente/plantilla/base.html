@@ -1,0 +1,19 @@
+{# Plantilla base: la cabecera y el pie de TODOS los informes. #}
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>{% block titulo %}Informe mensual{% endblock %}</title>
+</head>
+<body>
+  <header>
+    <p class="marca">Estudio · Informes mensuales · {{ periodo }}</p>
+  </header>
+
+  {% block contenido %}
+  <p>(sin contenido)</p>
+  {% endblock %}
+
+  <footer>Contacto: {{ cliente.contacto }}</footer>
+</body>
+</html>

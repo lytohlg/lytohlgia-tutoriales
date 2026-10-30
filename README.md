@@ -30,6 +30,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-26 | [MLflow: nunca pierdas el modelo que funcionó](https://www.youtube.com/watch?v=sHIx46I1c6U) | [`videos/mlflow-experimentos-que-no-se-pierden`](videos/mlflow-experimentos-que-no-se-pierden) | no |
 | 2026-10-27 | [APScheduler: tareas en Python que no se pisan y sobreviven al reinicio](https://www.youtube.com/watch?v=MJMb5aM5IsM) | [`videos/apscheduler-tareas-que-no-se-pisan`](videos/apscheduler-tareas-que-no-se-pisan) | no |
 | 2026-10-28 | [WeasyPrint: facturas en PDF desde HTML y CSS, sin maquetar a mano](https://www.youtube.com/watch?v=nWU3KRvf-gA) | [`videos/weasyprint-facturas-en-pdf`](videos/weasyprint-facturas-en-pdf) | no |
+| 2026-10-30 | [Jinja: el mismo informe para cada cliente sin copiar y pegar](https://www.youtube.com/watch?v=i1yBBzVvcPg) | [`videos/jinja-informes-por-cliente`](videos/jinja-informes-por-cliente) | no |
 
 <!-- INDICE:FIN -->
 

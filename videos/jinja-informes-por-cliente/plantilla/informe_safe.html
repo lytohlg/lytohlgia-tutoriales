@@ -1,0 +1,36 @@
+{# Variante PELIGROSA a propósito: el nombre se pinta sin escapar (|safe). #}
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Informe de {{ cliente.nombre }}</title>
+</head>
+<body>
+  <h1>Informe mensual · {{ cliente.nombre|safe }}</h1>
+  <p class="periodo">Periodo: {{ periodo }}</p>
+
+  <table>
+    <thead>
+      <tr><th>Concepto</th><th>Horas</th><th>Precio/h</th><th>Importe</th></tr>
+    </thead>
+    <tbody>
+      {% set ns = namespace(total=0) %}
+      {% for linea in cliente.lineas %}
+      {% set importe = linea.horas * linea.precio_hora %}
+      {% set ns.total = ns.total + importe %}
+      <tr>
+        <td>{{ linea.concepto }}</td>
+        <td>{{ linea.horas }}</td>
+        <td>{{ "%.2f"|format(linea.precio_hora) }} €</td>
+        <td>{{ "%.2f"|format(importe) }} €</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr><th colspan="3">Total</th><th>{{ "%.2f"|format(ns.total) }} €</th></tr>
+    </tfoot>
+  </table>
+
+  <footer>Contacto: {{ cliente.contacto }}</footer>
+</body>
+</html>
