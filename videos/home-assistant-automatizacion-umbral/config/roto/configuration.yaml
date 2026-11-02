@@ -1,0 +1,15 @@
+# Versión ROTA a propósito: la indentación del value_template está mal
+# (un espacio de más). Sirve para ver cómo el validador caza el error y dice
+# la línea exacta ANTES de arrancar el motor.
+logger:
+  default: warning
+
+command_line:
+  - sensor:
+      name: Temperatura salon
+      unique_id: temperatura_salon
+      command: "cat /tmp/casa/temp.txt"
+      unit_of_measurement: "°C"
+      device_class: temperature
+      scan_interval: 5
+       value_template: "{{ value | float(0) }}"

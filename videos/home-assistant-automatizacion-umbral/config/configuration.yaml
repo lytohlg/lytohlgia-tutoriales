@@ -1,0 +1,41 @@
+logger:
+  default: warning
+  logs:
+    homeassistant.bootstrap: info
+    homeassistant.core: info
+    homeassistant.components.automation: info
+    homeassistant.components.command_line: info
+
+# Un sensor que ejecuta un comando cada 5 segundos y se queda con su salida.
+# Aquí lee un fichero con un número (la temperatura), pero podría ser un script
+# en Python que consulte una API, la batería del portátil o el precio de la luz.
+command_line:
+  - sensor:
+      name: Temperatura salon
+      unique_id: temperatura_salon
+      command: "cat /tmp/casa/temp.txt"
+      unit_of_measurement: "°C"
+      device_class: temperature
+      scan_interval: 5
+      value_template: "{{ value | float(0) }}"
+
+# La regla: cuando el salón pasa de 30 grados, deja aviso en el registro
+# y lo escribe también en eventos.log con la hora.
+automation:
+  - alias: Aviso de calor en el salon
+    id: aviso_calor_salon
+    trigger:
+      - platform: numeric_state
+        entity_id: sensor.temperatura_salon
+        above: 30
+    action:
+      - service: system_log.write
+        data:
+          level: warning
+          message: "AVISO: el salon esta a {{ states('sensor.temperatura_salon') }} grados"
+      - service: shell_command.registrar_aviso
+        data: {}
+    mode: single
+
+shell_command:
+  registrar_aviso: "date -Is >> /tmp/casa/eventos.log"
