@@ -32,6 +32,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-28 | [WeasyPrint: facturas en PDF desde HTML y CSS, sin maquetar a mano](https://www.youtube.com/watch?v=nWU3KRvf-gA) | [`videos/weasyprint-facturas-en-pdf`](videos/weasyprint-facturas-en-pdf) | no |
 | 2026-10-29T08:30:00+01:00 | [pre-commit: tu clave privada se para antes del commit](https://www.youtube.com/watch?v=qRrHe-H-9Dc) | [`videos/precommit-clave-fuera-del-commit`](videos/precommit-clave-fuera-del-commit) | no |
 | 2026-10-30 | [Jinja: el mismo informe para cada cliente sin copiar y pegar](https://www.youtube.com/watch?v=i1yBBzVvcPg) | [`videos/jinja-informes-por-cliente`](videos/jinja-informes-por-cliente) | no |
+| 2026-10-31 08:30 | [ha-mcp: tu IA controla tu casa sin integraciones a mano](https://www.youtube.com/watch?v=-NEncJCkoTo) | [`videos/ha-mcp-casa-ia`](videos/ha-mcp-casa-ia) | sí |
 | 2026-11-02 | [Home Assistant: aviso automático cuando el salón pasa de 30 grados](https://www.youtube.com/watch?v=XMTYriIhrh0) | [`videos/home-assistant-automatizacion-umbral`](videos/home-assistant-automatizacion-umbral) | no |
 
 <!-- INDICE:FIN -->
