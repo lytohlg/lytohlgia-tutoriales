@@ -1,0 +1,9 @@
+{
+  "slug": "llmux-gateway-observabilidad",
+  "titulo": "Mira qué manda tu agente al modelo, byte a byte (llmux)",
+  "version": 1,
+  "publicar_el": "2026-11-04",
+  "video_id": "Q-LwEgWqWIw",
+  "requiere_credenciales": false,
+  "repo": "https://github.com/rnapoles/llmux"
+}
