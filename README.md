@@ -35,6 +35,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-10-31 08:30 | [ha-mcp: tu IA controla tu casa sin integraciones a mano](https://www.youtube.com/watch?v=-NEncJCkoTo) | [`videos/ha-mcp-casa-ia`](videos/ha-mcp-casa-ia) | sí |
 | 2026-11-02 | [Home Assistant: aviso automático cuando el salón pasa de 30 grados](https://www.youtube.com/watch?v=XMTYriIhrh0) | [`videos/home-assistant-automatizacion-umbral`](videos/home-assistant-automatizacion-umbral) | no |
 | 2026-11-04 | [Mira qué manda tu agente al modelo, byte a byte (llmux)](https://www.youtube.com/watch?v=Q-LwEgWqWIw) | [`videos/llmux-gateway-observabilidad`](videos/llmux-gateway-observabilidad) | no |
+| 2026-11-05 | [Airflow: un informe de ventas en cuatro pasos, sin que el ultimo corra con datos a medias](https://www.youtube.com/watch?v=G2XEShgxey4) | [`videos/airflow-informe-ventas`](videos/airflow-informe-ventas) | no |
 
 <!-- INDICE:FIN -->
 
