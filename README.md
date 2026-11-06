@@ -36,6 +36,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-02 | [Home Assistant: aviso automático cuando el salón pasa de 30 grados](https://www.youtube.com/watch?v=XMTYriIhrh0) | [`videos/home-assistant-automatizacion-umbral`](videos/home-assistant-automatizacion-umbral) | no |
 | 2026-11-04 | [Mira qué manda tu agente al modelo, byte a byte (llmux)](https://www.youtube.com/watch?v=Q-LwEgWqWIw) | [`videos/llmux-gateway-observabilidad`](videos/llmux-gateway-observabilidad) | no |
 | 2026-11-05 | [Airflow: un informe de ventas en cuatro pasos, sin que el ultimo corra con datos a medias](https://www.youtube.com/watch?v=G2XEShgxey4) | [`videos/airflow-informe-ventas`](videos/airflow-informe-ventas) | no |
+| 2026-11-06 | [Horizon: tu radar de noticias con IA, filtrado y puntuado (Python)](https://www.youtube.com/watch?v=NMNQecl8Gpc) | [`videos/horizon-boletin-noticias-ia`](videos/horizon-boletin-noticias-ia) | sí |
 
 <!-- INDICE:FIN -->
 

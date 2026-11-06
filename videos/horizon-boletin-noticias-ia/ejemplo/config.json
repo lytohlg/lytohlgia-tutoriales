@@ -1,0 +1,72 @@
+{
+  "ai": {
+    "provider": "openai",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com/v1",
+    "temperature": 0.3,
+    "max_tokens": 2048,
+    "throttle_sec": 0,
+    "analysis_concurrency": 2,
+    "enrichment_concurrency": 2,
+    "languages": [
+      "es"
+    ]
+  },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "noticias-es",
+    "profile_settings": {
+      "noticias-es": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      },
+      "tech-news": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      }
+    }
+  },
+  "display": {
+    "icon_style": "emoji"
+  },
+  "sources": {
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 8,
+      "min_score": 200,
+      "profile": "tech-news",
+      "fetch_comments": false
+    },
+    "rss": [
+      {
+        "name": "Python Insider",
+        "url": "https://pythoninsider.blogspot.com/feeds/posts/default",
+        "enabled": true,
+        "category": "python",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools",
+        "profile": "tech-news"
+      }
+    ],
+    "github": [],
+    "reddit": {
+      "enabled": false,
+      "subreddits": []
+    }
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.example.com",
+    "smtp_port": 465,
+    "imap_server": "imap.example.com",
+    "imap_port": 993,
+    "email_address": "demo@example.com",
+    "sender_name": "Horizon Demo"
+  }
+}
