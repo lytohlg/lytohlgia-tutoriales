@@ -37,6 +37,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-04 | [Mira qué manda tu agente al modelo, byte a byte (llmux)](https://www.youtube.com/watch?v=Q-LwEgWqWIw) | [`videos/llmux-gateway-observabilidad`](videos/llmux-gateway-observabilidad) | no |
 | 2026-11-05 | [Airflow: un informe de ventas en cuatro pasos, sin que el ultimo corra con datos a medias](https://www.youtube.com/watch?v=G2XEShgxey4) | [`videos/airflow-informe-ventas`](videos/airflow-informe-ventas) | no |
 | 2026-11-06 | [Horizon: tu radar de noticias con IA, filtrado y puntuado (Python)](https://www.youtube.com/watch?v=NMNQecl8Gpc) | [`videos/horizon-boletin-noticias-ia`](videos/horizon-boletin-noticias-ia) | sí |
+| 2026-11-07 | [Cómo detectar el código falso que escribe una IA (Python)](https://www.youtube.com/watch?v=E8DbJUkQSGk) | [`videos/hardware-in-the-loop-gates`](videos/hardware-in-the-loop-gates) | no |
 
 <!-- INDICE:FIN -->
 

@@ -1,0 +1,40 @@
+{
+  "project_name": "Nodo sensor de invernadero",
+  "project_summary": "Un nodo con ESP32 que mide temperatura y presion cada minuto, avisa por la red local cuando hay riesgo de helada y guarda las lecturas en una tarjeta. Esta terminado cuando el firmware arranca en la placa, el gemelo digital reproduce las mismas lecturas en el PC y las puertas de calidad pasan en verde.",
+  "goals": [
+    "Medir temperatura y presion cada minuto sin perder lecturas",
+    "Avisar por la red local cuando la temperatura baja del umbral",
+    "Guardar un mes de lecturas en la tarjeta",
+    "Reproducir el comportamiento en el PC antes de tocar la placa"
+  ],
+  "acceptance": [
+    "El firmware compila para la placa y para el PC sin cambiar el nucleo de control",
+    "El gemelo digital reproduce la misma secuencia con la misma semilla",
+    "Las puertas de calidad terminan en verde sobre el arbol limpio",
+    "El aviso llega en menos de cinco segundos desde que se cruza el umbral"
+  ],
+  "budget": "menos de 200 euros para el primer prototipo",
+  "quantity": "1 prototipo",
+  "material_default": "PETG para las primeras piezas",
+  "fastening": "insertos metalicos termofundidos en cada union que se desmonta",
+  "enclosure": "ventilado, con el sensor separado de la fuente de calor",
+  "fab_vendor": "JLCPCB",
+  "mcu_family": "ESP32-S3 con ESP-IDF",
+  "sim_tiers": "native twin only",
+  "gpu": "ninguna",
+  "mode": "chain",
+  "archive_path": "/mnt/datos/invernadero",
+  "cpu_max_pct": 90,
+  "ram_reserve_gb": 4,
+  "disk_free_min_gb": 50,
+  "handoff_pct": 95,
+  "firmware_language": "C11 para el nucleo de control",
+  "decisions": [
+    "Sin carcasa impresa en el primer prototipo: placa desnuda sobre la mesa",
+    "Alimentacion por USB durante las pruebas"
+  ],
+  "build_spec": [
+    "Interior de invernadero, de 0 a 40 grados en funcionamiento",
+    "IP54, ventilado pasivo"
+  ]
+}

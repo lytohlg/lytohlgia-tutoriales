@@ -1,0 +1,15 @@
+// Nodo sensor de la estacion: driver del barometro.
+// El bus I2C todavia no esta conectado, asi que el driver "simula" la lectura.
+#include <stdint.h>
+
+int baro_init(void) {
+    return 0;
+}
+
+int baro_read_pressure(void) {
+    return 1013;
+}
+
+int baro_read_temperature(void) {
+    return 21;
+}
