@@ -1,0 +1,23 @@
+{
+  "business": "Obrador de barrio",
+  "unit": "bandeja",
+  "price": 5.20,
+  "variable": [
+    {"label": "Materia prima", "cost": 2.65},
+    {"label": "Envase", "cost": 0.55},
+    {"label": "Reparto", "cost": 0.90}
+  ],
+  "fixed_monthly": [
+    {"label": "Alquiler", "cost": 2400},
+    {"label": "Personal", "cost": 5200},
+    {"label": "Suministros", "cost": 640}
+  ],
+  "startup": [
+    {"label": "Obra y maquinaria", "cost": 18000},
+    {"label": "Stock inicial", "cost": 2400}
+  ],
+  "days_per_month": 26,
+  "capacity_per_day": 90,
+  "plan_per_day": 70,
+  "ramp_per_day": [30, 38, 45, 52, 58, 62, 65, 67, 68, 69, 70, 70]
+}
