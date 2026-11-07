@@ -40,6 +40,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-07 | [Cómo detectar el código falso que escribe una IA (Python)](https://www.youtube.com/watch?v=E8DbJUkQSGk) | [`videos/hardware-in-the-loop-gates`](videos/hardware-in-the-loop-gates) | no |
 | 2026-11-08 | [Tres agentes de IA en el mismo repositorio sin pisarse](https://www.youtube.com/watch?v=AnYcbHj1oEo) | [`videos/squadra-agentes-sin-pisarse`](videos/squadra-agentes-sin-pisarse) | no |
 | 2026-11-09 | [Pon los números de tu negocio en un JSON y el script te dice si pierdes dinero](https://www.youtube.com/watch?v=sv88ObaZNPI) | [`videos/founder-skill`](videos/founder-skill) | no |
+| 2026-11-10 | [Blackbird: en qué 653 webs existe tu nombre de usuario (y cuáles no eres tú)](https://www.youtube.com/watch?v=AXMac6W-4BY) | [`videos/blackbird-huelle-digital`](videos/blackbird-huelle-digital) | no |
 
 <!-- INDICE:FIN -->
 
