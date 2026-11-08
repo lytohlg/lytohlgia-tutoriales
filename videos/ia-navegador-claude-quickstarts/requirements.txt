@@ -1,0 +1,5 @@
+# The browser toolset helpers (`anthropic.tools.browser`) ship with the Anthropic Python SDK, 2.0 or later.
+anthropic>=2.0.0,<3
+websockets>=16.1
+typing_extensions>=4.14
+

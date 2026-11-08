@@ -44,6 +44,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-11 | [Encuentra lo que repites en tu historial de IA y tapa tus claves](https://www.youtube.com/watch?v=k26qnR9j3v4) | [`videos/faq-shortcuts`](videos/faq-shortcuts) | no |
 | 2026-11-12 | [Panda Router: elige modelo por tarea y por coste, no por moda](https://www.youtube.com/watch?v=PjonO0Tfb_A) | [`videos/panda-router-elegir-modelo-por-tarea`](videos/panda-router-elegir-modelo-por-tarea) | no |
 | 2026-11-13 | [Scrapy: reunir un catalogo entero en un CSV sin escribir un bucle](https://www.youtube.com/watch?v=cKDdsc-qa-I) | [`videos/scrapy-catalogo-csv`](videos/scrapy-catalogo-csv) | no |
+| 2026-11-14 | [Tu IA no puede navegar: 6 llamadas de Claude Quickstarts, una por una](https://www.youtube.com/watch?v=WMUQhMSWVn0) | [`videos/ia-navegador-claude-quickstarts`](videos/ia-navegador-claude-quickstarts) | no |
 
 <!-- INDICE:FIN -->
 
