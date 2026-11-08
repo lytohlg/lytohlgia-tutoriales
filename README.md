@@ -42,6 +42,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-09 | [Pon los números de tu negocio en un JSON y el script te dice si pierdes dinero](https://www.youtube.com/watch?v=sv88ObaZNPI) | [`videos/founder-skill`](videos/founder-skill) | no |
 | 2026-11-10 | [Blackbird: en qué 653 webs existe tu nombre de usuario (y cuáles no eres tú)](https://www.youtube.com/watch?v=AXMac6W-4BY) | [`videos/blackbird-huelle-digital`](videos/blackbird-huelle-digital) | no |
 | 2026-11-11 | [Encuentra lo que repites en tu historial de IA y tapa tus claves](https://www.youtube.com/watch?v=k26qnR9j3v4) | [`videos/faq-shortcuts`](videos/faq-shortcuts) | no |
+| 2026-11-12 | [Panda Router: elige modelo por tarea y por coste, no por moda](https://www.youtube.com/watch?v=PjonO0Tfb_A) | [`videos/panda-router-elegir-modelo-por-tarea`](videos/panda-router-elegir-modelo-por-tarea) | no |
 
 <!-- INDICE:FIN -->
 
