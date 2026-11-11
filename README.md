@@ -45,6 +45,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-12 | [Panda Router: elige modelo por tarea y por coste, no por moda](https://www.youtube.com/watch?v=PjonO0Tfb_A) | [`videos/panda-router-elegir-modelo-por-tarea`](videos/panda-router-elegir-modelo-por-tarea) | no |
 | 2026-11-13 | [Scrapy: reunir un catalogo entero en un CSV sin escribir un bucle](https://www.youtube.com/watch?v=cKDdsc-qa-I) | [`videos/scrapy-catalogo-csv`](videos/scrapy-catalogo-csv) | no |
 | 2026-11-14 | [Tu IA no puede navegar: 6 llamadas de Claude Quickstarts, una por una](https://www.youtube.com/watch?v=WMUQhMSWVn0) | [`videos/ia-navegador-claude-quickstarts`](videos/ia-navegador-claude-quickstarts) | no |
+| 2026-11-15 | [Photon: lo que tu web expone sin que lo sepas](https://www.youtube.com/watch?v=ngik7bWp1pY) | [`videos/photon-audita-tu-web`](videos/photon-audita-tu-web) | no |
 
 <!-- INDICE:FIN -->
 
