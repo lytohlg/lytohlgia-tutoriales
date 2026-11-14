@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Formulario de contacto</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 420px; margin: 40px auto; }
+    label { display:block; margin-top: 12px; font-size: 14px; }
+    input, textarea { width: 100%; padding: 8px; font-size: 14px; }
+    button { margin-top: 16px; padding: 10px 18px; font-size: 15px; }
+    #resultado { margin-top: 18px; padding: 10px; background:#e8f6ec; border:1px solid #79b98c; }
+  </style>
+</head>
+<body>
+  <h1>Escríbenos</h1>
+  <form id="contacto">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" name="nombre" required>
+
+    <label for="email">Correo</label>
+    <input id="email" name="email" type="email" required>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    <button id="enviar" type="submit">Enviar mensaje</button>
+  </form>
+  <p id="resultado" hidden></p>
+
+  <script>
+    document.getElementById('contacto').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const datos = Object.fromEntries(new FormData(e.target).entries());
+      const r = await fetch('/enviar', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(datos)
+      });
+      const j = await r.json();
+      const caja = document.getElementById('resultado');
+      caja.textContent = j.mensaje;
+      caja.hidden = false;
+    });
+  </script>
+</body>
+</html>

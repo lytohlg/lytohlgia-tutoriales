@@ -1,0 +1,4 @@
+capturas/
+mensajes.jsonl
+__pycache__/
+.env
