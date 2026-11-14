@@ -47,6 +47,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-14 | [Tu IA no puede navegar: 6 llamadas de Claude Quickstarts, una por una](https://www.youtube.com/watch?v=WMUQhMSWVn0) | [`videos/ia-navegador-claude-quickstarts`](videos/ia-navegador-claude-quickstarts) | no |
 | 2026-11-15 | [Photon: lo que tu web expone sin que lo sepas](https://www.youtube.com/watch?v=ngik7bWp1pY) | [`videos/photon-audita-tu-web`](videos/photon-audita-tu-web) | no |
 | 2026-11-16T07:30:00Z | [Automatiza la prueba de tu formulario web con Playwright Python](https://www.youtube.com/watch?v=Q0gd8F1mofg) | [`videos/playwright-formulario`](videos/playwright-formulario) | no |
+| 2026-11-17T08:30:00+01:00 | [Textual: ve qué falla en un proceso largo sin leer 240 líneas](https://www.youtube.com/watch?v=YVsTs-_5fdw) | [`videos/textual-proceso-largo`](videos/textual-proceso-largo) | no |
 
 <!-- INDICE:FIN -->
 
