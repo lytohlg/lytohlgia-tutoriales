@@ -1,0 +1,41 @@
+--- a/facturas.py
++++ b/facturas.py
+@@ -6,4 +6,6 @@
+ 
+ def total_linea(catalogo: dict[str, float], referencia: str, unidades: int) -> float:
+     precio = buscar_precio(catalogo, referencia)
++    if precio is None:
++        raise KeyError(f"referencia desconocida: {referencia}")
+     return precio * unidades
+--- a/informe.py
++++ b/informe.py
+@@ -1,16 +1,15 @@
+ """Resumen de ventas del día."""
+ from __future__ import annotations
+-
+-from stock import stock_restante
+ 
+ 
+ def resumen(ventas: list[int]) -> str:
+     total = 0
+     for v in ventas:
+         total = total + v
+-    return total
++    return str(total)
+ 
+ 
+ def etiqueta(unidades: int) -> str:
+     if unidades == 0:
+         return "agotado"
++    return "disponible"
+--- a/main.py
++++ b/main.py
+@@ -9,7 +9,7 @@
+ 
+ 
+ def main() -> None:
+-    quedan = stock_restante("120", 15)
++    quedan = stock_restante(120, 15)
+     importe = total_linea(CATALOGO, "A-1", 3)
+     print("Quedan", quedan, "unidades")
+     print("Importe de la línea:", importe)

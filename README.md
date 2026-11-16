@@ -49,6 +49,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-16T07:30:00Z | [Automatiza la prueba de tu formulario web con Playwright Python](https://www.youtube.com/watch?v=Q0gd8F1mofg) | [`videos/playwright-formulario`](videos/playwright-formulario) | no |
 | 2026-11-17T08:30:00+01:00 | [Textual: ve qué falla en un proceso largo sin leer 240 líneas](https://www.youtube.com/watch?v=YVsTs-_5fdw) | [`videos/textual-proceso-largo`](videos/textual-proceso-largo) | no |
 | 2026-11-18T07:30:00Z | [Alembic: cambia tu base de datos sin perder datos (tutorial Python)](https://www.youtube.com/watch?v=f0Ogqt-rjb0) | [`videos/alembic-migraciones`](videos/alembic-migraciones) | no |
+| 2026-11-19T07:30:00Z | [mypy: encuentra el error antes de ejecutar el programa (Python)](https://www.youtube.com/watch?v=xSpjgij7Afc) | [`videos/mypy-tipos-antes-de-ejecutar`](videos/mypy-tipos-antes-de-ejecutar) | no |
 
 <!-- INDICE:FIN -->
 
