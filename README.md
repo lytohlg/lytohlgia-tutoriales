@@ -50,6 +50,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-17T08:30:00+01:00 | [Textual: ve qué falla en un proceso largo sin leer 240 líneas](https://www.youtube.com/watch?v=YVsTs-_5fdw) | [`videos/textual-proceso-largo`](videos/textual-proceso-largo) | no |
 | 2026-11-18T07:30:00Z | [Alembic: cambia tu base de datos sin perder datos (tutorial Python)](https://www.youtube.com/watch?v=f0Ogqt-rjb0) | [`videos/alembic-migraciones`](videos/alembic-migraciones) | no |
 | 2026-11-19T07:30:00Z | [mypy: encuentra el error antes de ejecutar el programa (Python)](https://www.youtube.com/watch?v=xSpjgij7Afc) | [`videos/mypy-tipos-antes-de-ejecutar`](videos/mypy-tipos-antes-de-ejecutar) | no |
+| 2026-11-20 | [OpenCV en Python: contar piezas en una foto y que el número cuadre](https://www.youtube.com/watch?v=EZpRUR2iLo0) | [`videos/contar-piezas-fotos-opencv`](videos/contar-piezas-fotos-opencv) | no |
 
 <!-- INDICE:FIN -->
 

@@ -1,0 +1,10 @@
+.env
+*.pyc
+__pycache__/
+fotos/
+dificiles/
+d*/
+marcadas/
+marcadas_tocadas/
+informe.csv
+informe_tocadas.csv
