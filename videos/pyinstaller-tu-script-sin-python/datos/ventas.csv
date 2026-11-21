@@ -1,0 +1,121 @@
+fecha,cliente,concepto,importe
+2026-09-02,Grupo Delta,pedido 1000,339.51
+2026-09-02,Ferreteria Vidal,pedido 1001,107.32
+2026-09-03,Talleres Ruiz,pedido 1002,350.53
+2026-09-04,Talleres Ruiz,pedido 1003,547.95
+2026-09-06,Ferreteria Vidal,pedido 1004,335.74
+2026-09-06,Panaderia Sol,pedido 1005,390.61
+2026-09-06,Estudio Prado,pedido 1006,111.59
+2026-09-07,Norte SL,pedido 1007,239.80
+2026-09-08,Ferreteria Vidal,pedido 1008,47.08
+2026-09-09,Clínica Mar,pedido 1009,66.33
+2026-09-10,Talleres Ruiz,pedido 1010,156.88
+2026-09-11,Ferreteria Vidal,pedido 1011,370.07
+2026-09-13,Clínica Mar,pedido 1012,269.28
+2026-09-13,Panaderia Sol,pedido 1013,550.19
+2026-09-14,Estudio Prado,pedido 1014,644.96
+2026-09-16,Clínica Mar,pedido 1015,452.63
+2026-09-16,Estudio Prado,pedido 1016,541.60
+2026-09-17,Norte SL,pedido 1017,376.54
+2026-09-19,Ferreteria Vidal,pedido 1018,883.20
+2026-09-19,Talleres Ruiz,pedido 1019,848.62
+2026-09-20,Grupo Delta,pedido 1020,51.49
+2026-09-22,Ferreteria Vidal,pedido 1021,449.03
+2026-09-23,Ferreteria Vidal,pedido 1022,70.84
+2026-09-24,Clínica Mar,pedido 1023,690.29
+2026-09-25,Estudio Prado,pedido 1024,232.31
+2026-09-27,Norte SL,pedido 1025,743.28
+2026-09-28,Norte SL,pedido 1026,366.74
+2026-09-29,Grupo Delta,pedido 1027,593.90
+2026-09-29,Panaderia Sol,pedido 1028,189.16
+2026-10-01,Norte SL,pedido 1029,450.37
+2026-10-03,Grupo Delta,pedido 1030,614.92
+2026-10-04,ACME,pedido 1031,598.75
+2026-10-06,Norte SL,pedido 1032,838.13
+2026-10-06,Grupo Delta,pedido 1033,636.10
+2026-10-06,Panaderia Sol,pedido 1034,89.13
+2026-10-07,ACME,pedido 1035,74.88
+2026-10-09,Panaderia Sol,pedido 1036,228.49
+2026-10-10,Grupo Delta,pedido 1037,806.70
+2026-10-11,Talleres Ruiz,pedido 1038,868.49
+2026-10-11,Norte SL,pedido 1039,852.60
+2026-10-13,Grupo Delta,pedido 1040,785.91
+2026-10-14,Estudio Prado,pedido 1041,492.89
+2026-10-15,Grupo Delta,pedido 1042,402.25
+2026-10-15,Panaderia Sol,pedido 1043,57.33
+2026-10-16,Panaderia Sol,pedido 1044,719.13
+2026-10-17,Ferreteria Vidal,pedido 1045,279.09
+2026-10-19,Ferreteria Vidal,pedido 1046,93.67
+2026-10-19,Talleres Ruiz,pedido 1047,479.54
+2026-10-21,Ferreteria Vidal,pedido 1048,604.83
+2026-10-22,Clínica Mar,pedido 1049,831.27
+2026-10-23,Panaderia Sol,pedido 1050,617.59
+2026-10-24,Grupo Delta,pedido 1051,295.81
+2026-10-24,Clínica Mar,pedido 1052,625.86
+2026-10-24,Grupo Delta,pedido 1053,436.67
+2026-10-25,Clínica Mar,pedido 1054,673.38
+2026-10-25,Ferreteria Vidal,pedido 1055,192.37
+2026-10-27,Talleres Ruiz,pedido 1056,735.43
+2026-10-27,Estudio Prado,pedido 1057,358.03
+2026-10-28,Norte SL,pedido 1058,852.03
+2026-10-30,Grupo Delta,pedido 1059,131.84
+2026-10-31,Norte SL,pedido 1060,722.22
+2026-11-02,Grupo Delta,pedido 1061,683.29
+2026-11-02,Ferreteria Vidal,pedido 1062,506.48
+2026-11-03,Grupo Delta,pedido 1063,466.27
+2026-11-05,Panaderia Sol,pedido 1064,564.86
+2026-11-07,Grupo Delta,pedido 1065,693.32
+2026-11-09,Ferreteria Vidal,pedido 1066,416.04
+2026-11-10,Ferreteria Vidal,pedido 1067,866.80
+2026-11-11,Grupo Delta,pedido 1068,708.73
+2026-11-12,Grupo Delta,pedido 1069,424.26
+2026-11-13,ACME,pedido 1070,660.90
+2026-11-14,Norte SL,pedido 1071,60.56
+2026-11-16,Ferreteria Vidal,pedido 1072,479.25
+2026-11-17,Grupo Delta,pedido 1073,717.08
+2026-11-17,Estudio Prado,pedido 1074,219.66
+2026-11-17,Estudio Prado,pedido 1075,164.61
+2026-11-19,ACME,pedido 1076,681.19
+2026-11-20,Estudio Prado,pedido 1077,869.83
+2026-11-21,Ferreteria Vidal,pedido 1078,247.47
+2026-11-21,Clínica Mar,pedido 1079,281.29
+2026-11-22,Panaderia Sol,pedido 1080,370.80
+2026-11-24,Talleres Ruiz,pedido 1081,311.41
+2026-11-26,Talleres Ruiz,pedido 1082,449.38
+2026-11-26,ACME,pedido 1083,583.99
+2026-11-28,Grupo Delta,pedido 1084,189.56
+2026-11-29,ACME,pedido 1085,386.20
+2026-11-29,Grupo Delta,pedido 1086,88.80
+2026-11-30,Norte SL,pedido 1087,119.82
+2026-12-01,Estudio Prado,pedido 1088,391.75
+2026-12-02,Talleres Ruiz,pedido 1089,756.18
+2026-12-02,ACME,pedido 1090,317.83
+2026-12-04,Panaderia Sol,pedido 1091,427.58
+2026-12-05,Clínica Mar,pedido 1092,583.76
+2026-12-07,ACME,pedido 1093,58.12
+2026-12-07,Ferreteria Vidal,pedido 1094,311.37
+2026-12-09,Panaderia Sol,pedido 1095,251.23
+2026-12-09,Talleres Ruiz,pedido 1096,349.25
+2026-12-11,ACME,pedido 1097,845.76
+2026-12-12,ACME,pedido 1098,843.31
+2026-12-14,Panaderia Sol,pedido 1099,517.89
+2026-12-14,Norte SL,pedido 1100,262.95
+2026-12-16,Grupo Delta,pedido 1101,239.59
+2026-12-16,Estudio Prado,pedido 1102,567.89
+2026-12-18,Norte SL,pedido 1103,142.17
+2026-12-19,Estudio Prado,pedido 1104,640.46
+2026-12-21,Ferreteria Vidal,pedido 1105,707.09
+2026-12-22,Talleres Ruiz,pedido 1106,440.30
+2026-12-24,Grupo Delta,pedido 1107,274.50
+2026-12-24,Estudio Prado,pedido 1108,300.41
+2026-12-25,Estudio Prado,pedido 1109,638.11
+2026-12-27,Estudio Prado,pedido 1110,484.81
+2026-12-28,Grupo Delta,pedido 1111,60.64
+2026-12-29,Clínica Mar,pedido 1112,571.59
+2026-12-30,Panaderia Sol,pedido 1113,230.65
+2026-12-31,Talleres Ruiz,pedido 1114,596.62
+2027-01-01,Norte SL,pedido 1115,126.59
+2027-01-02,Panaderia Sol,pedido 1116,83.87
+2027-01-03,ACME,pedido 1117,206.71
+2027-01-05,Grupo Delta,pedido 1118,594.28
+2027-01-06,Clínica Mar,pedido 1119,597.57

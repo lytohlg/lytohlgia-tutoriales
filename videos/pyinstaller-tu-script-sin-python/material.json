@@ -1,0 +1,12 @@
+{
+  "familia": "automatizacion",
+  "herramienta": "pyinstaller",
+  "publicar_el": "2026-11-25",
+  "repo": "pyinstaller/pyinstaller",
+  "requiere_credenciales": false,
+  "resumen": "Empaquetar un script de Python en un ejecutable que se abre con doble clic en una máquina sin Python, con los tres fallos reales: datos que no viajan, glibc del sistema y coste de --onefile.",
+  "slug": "pyinstaller-tu-script-sin-python",
+  "titulo": "Tu script en un programa que corre sin Python (PyInstaller)",
+  "version": 1,
+  "video_id": "RqYgI1li3ME"
+}
