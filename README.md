@@ -54,6 +54,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-21 | [Genera diagramas UML desde tu código Python con Gaphor](https://www.youtube.com/watch?v=dv_E8peAcCQ) | [`videos/diagramas-uml-python-gaphor`](videos/diagramas-uml-python-gaphor) | no |
 | 2026-11-22 | [Celery: ejecuta tareas lentas sin bloquear tu web](https://www.youtube.com/watch?v=HZyUmColMeg) | [`videos/celery-trabajo-fuera-de-la-peticion`](videos/celery-trabajo-fuera-de-la-peticion) | no |
 | 2026-11-23 | [Mira qué esconde tu CSV antes de analizarlo con ydata-profiling](https://www.youtube.com/watch?v=KsDCMRImyIw) | [`videos/perfilar-antes-de-analizar`](videos/perfilar-antes-de-analizar) | no |
+| 2026-11-24 | [Automatiza 300 fotos de producto con Pillow en minutos](https://www.youtube.com/watch?v=RM3FOc9362Y) | [`videos/pillow-300-fotos-iguales`](videos/pillow-300-fotos-iguales) | no |
 
 <!-- INDICE:FIN -->
 
