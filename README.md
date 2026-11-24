@@ -56,6 +56,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-23 | [Mira qué esconde tu CSV antes de analizarlo con ydata-profiling](https://www.youtube.com/watch?v=KsDCMRImyIw) | [`videos/perfilar-antes-de-analizar`](videos/perfilar-antes-de-analizar) | no |
 | 2026-11-24 | [Automatiza 300 fotos de producto con Pillow en minutos](https://www.youtube.com/watch?v=RM3FOc9362Y) | [`videos/pillow-300-fotos-iguales`](videos/pillow-300-fotos-iguales) | no |
 | 2026-11-25 | [Tu script en un programa que corre sin Python (PyInstaller)](https://www.youtube.com/watch?v=RqYgI1li3ME) | [`videos/pyinstaller-tu-script-sin-python`](videos/pyinstaller-tu-script-sin-python) | no |
+| 2026-11-26 | [Mis tests pasaban en verde y no probaban nada: ub-mode de Uncle Bob](https://www.youtube.com/watch?v=LLV2F5kRHUg) | [`videos/ub-mode-tres-jueces`](videos/ub-mode-tres-jueces) | no |
 
 <!-- INDICE:FIN -->
 
