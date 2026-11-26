@@ -1,0 +1,8 @@
+{
+  "publicar_el": "2026-11-28",
+  "requiere_credenciales": false,
+  "slug": "pydantic-dato-malo",
+  "titulo": "El validador dijo OK y guardó una fecha que no existe: pydantic",
+  "version": 1,
+  "video_id": "yFYy8AAmULw"
+}

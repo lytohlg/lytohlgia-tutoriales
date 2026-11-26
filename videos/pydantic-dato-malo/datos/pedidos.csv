@@ -1,0 +1,7 @@
+id,cliente,email,importe,fecha,estado
+1,Ana Ruiz,ana@example.com,12.50,2026-11-02,pagado
+2,Marta Gil,marta@example.com,30.00,2026-11-03,pendiente
+3,Luis Pérez,luis@example,"12,50",2026-11-03,pagado
+4,Josu Etxeberria,josu@example.com,8.90,2026-02-31,pagado
+5,Ana Ruiz,ana@example.com,-5.00,2026-11-04,pagado
+1,Luis Pérez,luis.perez@example.com,12.50,2026-11-05,PAGADO

@@ -58,6 +58,7 @@ paso, escrito para que lo siga alguien que empieza de cero.
 | 2026-11-25 | [Tu script en un programa que corre sin Python (PyInstaller)](https://www.youtube.com/watch?v=RqYgI1li3ME) | [`videos/pyinstaller-tu-script-sin-python`](videos/pyinstaller-tu-script-sin-python) | no |
 | 2026-11-26 | [Mis tests pasaban en verde y no probaban nada: ub-mode de Uncle Bob](https://www.youtube.com/watch?v=LLV2F5kRHUg) | [`videos/ub-mode-tres-jueces`](videos/ub-mode-tres-jueces) | no |
 | 2026-11-27 | [Entrenar tu propia IA sin GPU: lo probé con MiniMind](https://www.youtube.com/watch?v=eV_vgv8yqcU) | [`videos/minimind-coste-real`](videos/minimind-coste-real) | no |
+| 2026-11-28 | [El validador dijo OK y guardó una fecha que no existe: pydantic](https://www.youtube.com/watch?v=yFYy8AAmULw) | [`videos/pydantic-dato-malo`](videos/pydantic-dato-malo) | no |
 
 <!-- INDICE:FIN -->
 

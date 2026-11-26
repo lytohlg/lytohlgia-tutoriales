@@ -1,0 +1,6 @@
+# ficheros que genera la demo al ejecutarse (no se versionan)
+pedidos_limpios.csv
+pedidos_ok.csv
+informe.csv
+__pycache__/
+*.pyc
